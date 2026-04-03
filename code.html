@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amman Flour Mill</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #8B5E3C;
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1604908176997-431d8dcb33f6') no-repeat center/cover;
+            height: 400px;
+            color: White;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            background: rgba(0,0,0,0.5);
+            padding: 10px 20px;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        .about, .services {
+            text-align: center;
+        }
+
+        .services .box {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 10px;
+        }
+
+        .contact {
+            background: #eee;
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        @media(max-width: 768px) {
+            .services .box {
+                width: 100%;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <h1>Amman Flour Mill</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="hero">
+    <h2>Fresh & Organic Flour Products</h2>
+</div>
+
+<section id="about" class="about container">
+    <h2>About Us</h2>
+    <p>
+        We are a trusted flour mill providing high-quality wheat, rice, and multi-grain flour.
+        Our products are fresh, hygienic, and processed with modern machinery.
+    </p>
+</section>
+
+<section id="services" class="services container">
+    <h2>Our Products</h2>
+
+    <div class="box">
+        <h3>Wheat Flour</h3>
+        <p>Freshly ground wheat flour for daily use.</p>
+    </div>
+
+    <div class="box">
+        <h3>Rice Flour</h3>
+        <p>Perfect for traditional recipes and snacks.</p>
+    </div>
+
+    <div class="box">
+        <h3>Multi-Grain Flour</h3>
+        <p>Healthy mix of grains for better nutrition.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Arun Raj S</p>
+    <p>Amman Flour Mill</p>
+    <p>Polarapatty,Udumalpet</p>
+    <p>7339436002</p>
+    <p>info@flourmill.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Amman Flour Mill. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
